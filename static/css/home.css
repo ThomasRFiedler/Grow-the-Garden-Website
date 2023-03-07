@@ -1,0 +1,191 @@
+body,html
+{ 
+  margin:0;
+  background-color:white;
+  height:325vh;
+}
+.div-top 
+{
+  background-attachment:fixed;
+  height:100vh;
+  background-size:cover;
+  align-items: center;
+  background-repeat:no-repeat;
+  display:flex;
+  background-position:center;
+}
+
+.gtg-title-outer
+{
+  color:white;
+  width:100%;
+  text-align:center;
+}
+#gtg-title 
+{
+  font-size:calc(.4 * 10vw);
+  color:white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5vh;
+  border-radius: 20px;
+}
+.div-mid 
+{
+  height:75vh;
+  margin:auto;
+}
+.mission-statement-outer 
+{
+  margin:auto;
+  padding:15vh;
+  font-size:2vh;
+}
+.mission-statement
+{
+  margin:auto;
+  width:50%;
+  color:black;
+}
+.img-nav-container
+{
+  margin:auto;
+  padding: 5vh;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  width: 66%;
+}
+.img-wrap:hover 
+{
+  transform:scale(1.1);
+}
+.img-nav .img-wrap 
+{
+  border-radius:50%;
+  padding:3vh;
+  height:30vh;
+  width:30vh;
+  margin:auto;
+}
+.img-wrap img 
+{
+  height:30vh;
+  border-radius:50%;
+}
+.footer
+{
+  background-color:darkslateblue;
+  height:40vh;
+  width:100%;
+  position: relative;
+  margin:auto;
+  bottom:-10vh;
+  left:0;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1100px) 
+{
+  body 
+  { 
+    margin:0;
+    background-color:white;
+    height:215vh;
+  }
+  .div-top 
+  {
+    background-attachment:fixed;
+    height:100vh;
+    align-items: center;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+  }
+  .gtg-title-outer
+  {
+    color:white;
+    width:100%;
+    text-align:center;
+  }
+  #gtg-title 
+  {
+    font-size:calc(.4 * 10vw);
+    color:white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5vh;
+    border-radius: 20px;
+  }
+  .div-mid 
+  {
+    height:75vh;
+    margin:auto;
+  }
+  .mission-statement-outer 
+  {
+    margin:auto;
+    padding:15vh;
+    font-size:2vh;
+  }
+  .mission-statement
+  {
+    margin:auto;
+    width:50%;
+    color:black;
+  }
+  .img-nav-container
+  {
+    margin:auto;
+    padding: 15vh;
+    background-color: #e4e4e4;
+    height: 30vh;
+    border-radius: 10px;
+    width: 66%;
+  }
+  .img-nav 
+  {
+    display:flex;
+    justify-content: space-around;
+  }
+  .img-wrap:hover 
+  {
+    transform:scale(1.1);
+  }
+  .footer
+  {
+    background-color:darkslateblue;
+    height:60vh;
+    position: relative;
+    bottom:-30vh;
+    left:0;
+  }
+  .img-nav .img-wrap 
+  {
+    padding:0;
+    border-radius:50%;
+  }
+  .img-wrap img 
+  {
+    height:30vh;
+    border-radius:50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

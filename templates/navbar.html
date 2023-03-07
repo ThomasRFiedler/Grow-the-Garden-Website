@@ -1,0 +1,43 @@
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.29" />
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'/>
+</head>
+
+<body>
+  <div class='top-nav'>
+    <div class='links'>
+      <a href='#'>
+        <span id='a-about'>Who We Are</span>
+      </a>
+      <a href='/contact'>
+        <span id='a-contact'>Contact Us</span>
+      </a>
+      <a href='#'>
+        <span id='a-info'>Information</span>
+      </a>
+      <a href='#'>
+        <span id='a-products'>Products</span>
+      </a>
+    </div>
+
+    <div class='collapsible-menu'>
+      <button id='collapse-button'>
+      <span id='collapse-text'>+</span>
+      </button>
+      <div class='a-wrap'>
+        <div><span><a href='#'>Who We Are</a></span></div>
+        <div><span><a href='#'>Contact Us</a></span></div>
+        <div><span><a href='#'>Information</a></span></div>
+        <div><span><a href='#'>Products</a></span></div>
+      </div>
+    </div>
+  </div>
+</body>
+<link rel='stylesheet' type='text/css' href='{% static "css/navbar.css" %}'>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type='text/javascript' src='{% static "js/navbar.js" %}'></script>
+</html>
